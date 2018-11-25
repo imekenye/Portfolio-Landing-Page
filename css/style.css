@@ -220,3 +220,43 @@ header {
     top: 50rem;
     z-index: 13;
 }
+
+/* --------------------------- */
+/* PORTFOLIO WORK SECTION */
+/* --------------------------- */
+
+.portfolio-work {
+    margin-top: 0rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 50rem;
+}
+.box {
+    width: 10rem;
+    height: 50rem;
+    background-color: rgb(240, 216, 6);
+    box-sizing: border-box;
+    float: left;
+}
+.box1 {
+    background-image: url('../images/portfolio1');
+    background-size: cover;
+    background-position: center;
+    padding-right:2rem;
+    width: 33.33%;
+}
+.box2 {
+    background-image:;
+    background-color: #CBCAE9;
+    padding-right:2rem;
+    width: 33.33%;
+}
+.box3 {
+    background-color:#00003C;
+    width: 33.33%;
+}
+.portfolio-work:after {
+    content: "";
+    display: table;
+    clear: both;
+}
