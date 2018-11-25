@@ -108,3 +108,54 @@ header {
     right: 1rem;
     top: 0rem;
 }
+/* end of hero image/text */
+
+/* --------------------------- */
+/* ABOUT SECTION */
+/* --------------------------- */
+
+.about-section {
+    margin-top: 20rem;
+    height: 100vh;
+    position: relative;
+}
+.leftSide {
+    width: 50%;
+    float: left;
+}
+.rightSide {
+    width:50%;
+    float: right;
+}
+.leftText {
+    margin-top: 3rem;
+    font-size: 17rem;
+    font-weight: 700;
+    color: #00003C;
+    display: inline-block;
+    float: right;
+    padding-right:7rem;
+}
+.leftSide-line1 {
+    height: 0.1rem;
+    width: 20rem;
+    background-color:#00003C;
+    display: inline-block;
+    position: absolute;
+    top:13rem;
+    left:18rem;
+}
+.rightSide p {
+    color: #00003C;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    width:50rem;
+    margin: 0;
+    padding:7rem 7rem;
+
+    display: inline-block;
+}
+.about-ab {
+    line-height: 0.4;
+    text-align: right;
+}
