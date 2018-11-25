@@ -6,7 +6,11 @@ html,body {
     font-size: 62.5%;
     line-height: 1.15;
     font-family: 'Poppins', sans-serif;
+    
 }
+/* --------------------------- */
+/* HEADER */
+/* --------------------------- */
 
 header {
     width: 100%;
@@ -26,6 +30,8 @@ header {
     color: #FBCB21;
 }
 
+/* navigation */
+
 .row {
     padding: 6rem;
 }
@@ -44,4 +50,61 @@ header {
 .main-nav li a {
     color: #CBCAE9;
     text-decoration: none;
+}
+
+/* end of navigation */
+
+/* hero image/text */
+
+.image-header {
+    margin-top: 6rem;
+    float: left;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+}
+
+.headerHeading {
+    position: absolute;
+    top:30rem;
+    left:80rem; 
+}
+.headerHeading h1 {
+    color: #CBCAE9;
+    font-size:3rem;    
+}
+.quote-btn {
+    margin-top: 3rem;
+    position: absolute;
+    left: 20rem;
+}
+.quote-btn a {
+    text-decoration: none;
+}
+.btn {
+    padding-top:1.2rem;
+    padding-bottom:1.2rem;
+    padding-left: 3rem;
+    padding-right: 7rem;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    color: #CBCAE9;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #FBCB21;
+}
+.line1 {
+    height: 0.1rem;
+    background-color: #FBCB21;
+    width:20rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 20rem;
+}
+.fas {
+    color: #FBCB21;
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
 }
