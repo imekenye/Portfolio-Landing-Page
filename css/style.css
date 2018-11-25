@@ -7,3 +7,41 @@ html,body {
     line-height: 1.15;
     font-family: 'Poppins', sans-serif;
 }
+
+header {
+    width: 100%;
+    margin: auto;
+    height: 90rem ;
+    background: linear-gradient(90deg, rgba(0,0,60,1) 0%, rgba(1,1,75,1) 100%);
+}
+
+.logo {
+    color: #CBCAE9;
+    font-size: 2.5rem;
+    font-weight: 700;
+    float: left;
+}
+
+.logo-yellow {
+    color: #FBCB21;
+}
+
+.row {
+    padding: 6rem;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 5rem;
+    font-size: 1.4rem;
+}
+
+.main-nav li a {
+    color: #CBCAE9;
+    text-decoration: none;
+}
