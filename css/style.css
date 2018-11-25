@@ -239,19 +239,24 @@ header {
     float: left;
 }
 .box1 {
-    background-image: url('../images/portfolio1');
+    background-image: url('../images/portfolio1.jpg');
     background-size: cover;
     background-position: center;
     padding-right:2rem;
     width: 33.33%;
 }
 .box2 {
-    background-image:;
+    background-image:url('../images/portfolio2.jpg');
+    background-size: cover;
+    background-position: center;
     background-color: #CBCAE9;
     padding-right:2rem;
     width: 33.33%;
 }
 .box3 {
+    background-image:url('../images/portfolio3.png');
+    background-size: cover;
+    background-position: center;
     background-color:#00003C;
     width: 33.33%;
 }
