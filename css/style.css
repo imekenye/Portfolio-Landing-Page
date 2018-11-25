@@ -33,17 +33,25 @@ header {
 /* navigation */
 
 .row {
-    padding: 6rem;
+    background: linear-gradient(90deg, rgba(0,0,60,1) 0%, rgba(1,1,75,1) 100%);
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    padding: 3rem;
+    display: inline;
+    z-index: 999;
+    
 }
 
 .main-nav {
+    margin-right: 14rem;
     float: right;
     list-style: none;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 5rem;
+    margin-left: 4rem;
     font-size: 1.4rem;
 }
 
@@ -51,6 +59,10 @@ header {
     color: #CBCAE9;
     text-decoration: none;
 }
+.main-nav li a:hover {
+    color: #FBCB21;
+    transition: all .3s;
+} 
 
 /* end of navigation */
 
@@ -74,6 +86,7 @@ header {
     font-size:3rem;    
 }
 .quote-btn {
+    width: 20rem;
     margin-top: 3rem;
     position: absolute;
     left: 20rem;
@@ -99,13 +112,13 @@ header {
     width:20rem;
     position: absolute;
     bottom: 1rem;
-    right: 20rem;
+    right: 22rem;
 }
 .fas {
     color: #FBCB21;
     font-size: 2rem;
     position: absolute;
-    right: 1rem;
+    right: 3rem;
     top: 0rem;
 }
 /* end of hero image/text */
