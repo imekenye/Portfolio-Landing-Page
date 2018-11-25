@@ -116,7 +116,7 @@ header {
 
 .about-section {
     margin-top: 20rem;
-    height: 100vh;
+    height: 60rem;
     position: relative;
 }
 .leftSide {
@@ -158,4 +158,65 @@ header {
 .about-ab {
     line-height: 0.4;
     text-align: right;
+}
+
+
+/* --------------------------- */
+/* PORTFOLIO TEXT SECTION */
+/* --------------------------- */
+
+.portfolio-section {
+    background-image: url('../images/pattern.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #FBCB21;
+    height: 100rem;
+    position: relative;
+}
+.portfolio-leftSide {
+   
+    float: left;
+}
+.portfolio-leftText {
+    
+    font-size: 10rem;
+    font-weight: 700;
+    color: #00003C;
+    display: inline-block;
+    position: absolute;
+    left: 30rem;
+    top: 10rem;
+}
+.vertical-line1 {
+    height: 35rem;
+    width: 0.1rem;
+    background-color:#00003C;
+    position: absolute;
+    left: 50rem;
+    top: -25rem;
+    z-index: 13;
+}
+.rightSide-line2 {
+    height: 25rem;
+    width: 0.1rem;
+    background-color:#00003C;
+    position: absolute;
+    left: 50rem;
+    top: 30rem;
+    z-index: 13;
+}
+.folio {
+    line-height: 0.5;
+    position: absolute;
+    left: 3rem;
+}
+.scroll-text {
+    font-size: 1.5rem;
+    color:#00003C;
+    position: absolute;
+    left: 52rem;
+    top: 50rem;
+    z-index: 13;
 }
