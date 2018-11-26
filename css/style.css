@@ -304,6 +304,16 @@ header {
     border-radius: 10px;
     opacity: 0;
 }
+.box p {
+    color: #CBCAE9;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all .2s;
+}
 .box a:hover {
     opacity: 1;
 }
