@@ -254,12 +254,15 @@ header {
     box-sizing: border-box;
     float: left;
     transition: all .2s ease-in-out;
+    position: relative;
 }
 
 .box:hover {
     box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
     z-index: 200;
     transform: scale(1.1);
+    cursor: pointer;
+    background: rgb(0, 0, 60);
 }
 .box1 {
     background-image: url('../images/portfolio1.jpg');
@@ -287,4 +290,20 @@ header {
     content: "";
     display: table;
     clear: both;
+}
+.box a {
+    font-size: 2rem;
+    border: 1px solid #CBCAE9;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem 2rem;
+    color: #CBCAE9;
+    border-radius: 10px;
+    opacity: 0;
+}
+.box a:hover {
+    opacity: 1;
 }
