@@ -239,24 +239,34 @@ header {
 /* --------------------------- */
 
 .portfolio-work {
-    margin-top: 0rem;
-    width: 100%;
+    margin:auto;
+    margin-top: 10rem;
+    width: 70%;
     background-color: rgb(255, 255, 255);
     height: 50rem;
 }
 .box {
     width: 10rem;
-    height: 50rem;
+    padding:0;
+    margin: 0.7rem;
+    height: 40rem;
     background-color: rgb(240, 216, 6);
     box-sizing: border-box;
     float: left;
+    transition: all .2s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    z-index: 200;
+    transform: scale(1.1);
 }
 .box1 {
     background-image: url('../images/portfolio1.jpg');
     background-size: cover;
     background-position: center;
     padding-right:2rem;
-    width: 33.33%;
+    width: 30%;
 }
 .box2 {
     background-image:url('../images/portfolio2.jpg');
@@ -264,14 +274,14 @@ header {
     background-position: center;
     background-color: #CBCAE9;
     padding-right:2rem;
-    width: 33.33%;
+    width: 30%;
 }
 .box3 {
     background-image:url('../images/portfolio3.png');
     background-size: cover;
     background-position: center;
     background-color:#00003C;
-    width: 33.33%;
+    width: 30%;
 }
 .portfolio-work:after {
     content: "";
