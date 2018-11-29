@@ -4,11 +4,12 @@
 ## Description
 This is a webpage showcasing my skills.
 ## Setup/Installation Requirements
+The following installations should be run in your command line interface.
 #### Installation
-* Clone this repository to a location in your file system.
+* Clone this repository by copying link to clipboard.
 * On the terminal, navigate to your workspace directory.
 * Run
-``` https://github.com/imekenye/Portfolio-Landing-Page.git ```
+``` git clone https://github.com/imekenye/Portfolio-Landing-Page.git ```
 ## Known Bugs
 There no bugs but if any you contact me <a href="https://github.com/imekenye/Portfolio-Landing-Page/issues/new">HERE</a>
 ## Technologies Used
