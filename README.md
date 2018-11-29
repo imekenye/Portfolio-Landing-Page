@@ -4,7 +4,11 @@
 ## Description
 This is a webpage showcasing my skills.
 ## Setup/Installation Requirements
-No setup required.
+#### Installation
+* Clone this repository to a location in your file system.
+* On the terminal, navigate to your workspace directory.
+* Run
+``` https://github.com/imekenye/Portfolio-Landing-Page.git ```
 ## Known Bugs
 There no bugs but if any you contact me <a href="https://github.com/imekenye/Portfolio-Landing-Page/issues/new">HERE</a>
 ## Technologies Used
